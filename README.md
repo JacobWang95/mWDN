@@ -6,7 +6,8 @@ The code is based on Tensorflow and other basic python packages.
 
 We only tested the code on Ubuntu 16.04 with python 2.7 and TensorFLow 1.2, a GPU with at least 4GB memory is recommanded.
 
-##Usage
+#Usage
+
 Before running the code, modify the line 65 of train.py to let the DATA_ROOT point to the path of UCR dataset on your machine.
 
 To start a demo on training on yoga data in UCR dataset, simply run the following command:
