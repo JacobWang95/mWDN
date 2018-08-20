@@ -19,5 +19,4 @@ The code is designed to automatically save the best model parameters.
 You may try other args by adding them to the command, for details please refer to:
 ```
 python train.py --help
-
 ```
