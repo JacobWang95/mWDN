@@ -10,7 +10,7 @@ We only tested the code on Ubuntu 16.04 with python 2.7 and TensorFLow 1.2, a GP
 
 Before running the code, modify the line 65 of train.py to let the DATA_ROOT points to the path to UCR dataset on your machine.
 
-To start a demo on training on yoga data in UCR dataset, simply run the following command:
+To start a demo on training yoga data of UCR dataset, simply run the following command:
 ```
 python train.py --gpu 0 --log_dir log_demo_yoga
 ```
