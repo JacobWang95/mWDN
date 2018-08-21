@@ -21,18 +21,18 @@ def get_wave_kernel(shape):
     return mat_lp, mat_hp
 
 def variable_on_cpu(name, shape, initializer, use_fp16=False):
-  """Helper to create a Variable stored on CPU memory.
-  Args:
+    """Helper to create a Variable stored on CPU memory.
+    Args:
     name: name of the variable
     shape: list of ints
     initializer: initializer for Variable
-  Returns:
+    Returns:
     Variable Tensor
-  """
-  with tf.device('/cpu:0'):
-    dtype = tf.float16 if use_fp16 else tf.float32
-    var = tf.get_variable(name, shape, initializer=initializer, dtype=dtype)
-  return var
+    """
+    with tf.device('/cpu:0'):
+        dtype = tf.float16 if use_fp16 else tf.float32
+        var = tf.get_variable(name, shape, initializer=initializer, dtype=dtype)
+    return var
 
 def wave_op(input, len_input, scope, is_training, l1_value, weight_decay, sim_reg=0, activation=None):
     with tf.variable_scope(scope) as sc:
