@@ -6,7 +6,7 @@ The code is based on Tensorflow and other basic python packages.
 
 We only tested the code on Ubuntu 16.04 with python 2.7 and TensorFLow 1.2, a GPU with at least 4GB memory is recommanded.
 
-# Usage
+## Usage
 
 Before running the code, modify the line 65 of train.py to let the DATA_ROOT points to the path to UCR dataset on your machine.
 
@@ -20,7 +20,7 @@ You may try other args by adding them to the command, for details please refer t
 ```
 python train.py --help
 ```
-# Citing
+## Citing
 
 If you find our work is helpful for your research, please kindly consider citing our paper as well.
 
