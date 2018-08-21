@@ -20,3 +20,26 @@ You may try other args by adding them to the command, for details please refer t
 ```
 python train.py --help
 ```
+## Citing
+
+If you find our work is helpful for your research, please kindly consider citing our paper as well.
+
+```latex
+@inproceedings{Wang:2018:MWD:3219819.3220060,
+ author = {Wang, Jingyuan and Wang, Ze and Li, Jianfeng and Wu, Junjie},
+ title = {Multilevel Wavelet Decomposition Network for Interpretable Time Series Analysis},
+ booktitle = {Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery \&\#38; Data Mining},
+ series = {KDD '18},
+ year = {2018},
+ isbn = {978-1-4503-5552-0},
+ location = {London, United Kingdom},
+ pages = {2437--2446},
+ numpages = {10},
+ url = {http://doi.acm.org/10.1145/3219819.3220060},
+ doi = {10.1145/3219819.3220060},
+ acmid = {3220060},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {epidemic propagation, intracity epidemic control and prevention, metapopulation, network inference},
+}
+```
