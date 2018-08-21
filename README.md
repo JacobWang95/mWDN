@@ -20,7 +20,7 @@ You may try other args by adding them to the command, for details please refer t
 ```
 python train.py --help
 ```
-## Citing
+# Citing
 
 If you find our work is helpful for your research, please kindly consider citing our paper as well.
 
